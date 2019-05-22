@@ -1,0 +1,15 @@
+{
+    "name": "geraldoandradee/websitemonitor",
+    "type": "project",
+    "require": {
+        "slim/slim": "3.12.1"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Geraldo Andrade",
+            "email": "geraldo@geraldoandrade.com"
+        }
+    ],
+    "minimum-stability": "stable"
+}

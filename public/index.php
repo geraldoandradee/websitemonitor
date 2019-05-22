@@ -1,3 +1,14 @@
 <?php
 
-echo "Hello new World " . getenv('WORLD_NAME');
+require './../vendor/autoload.php';
+
+// instantiate the App object
+$app = new \Slim\App();
+
+// Add route callbacks
+$app->get('/', function ($request, $response, $args) {
+    return $response->withStatus(200)->write('Hello Again!');
+});
+
+// Run application
+$app->run();
